@@ -1,0 +1,47 @@
+#corners1 {
+    margin: auto;
+    border-radius: 25px;
+    background: #f5a1b6;
+    padding: 40px; 
+    width: 600px;
+    height: auto;
+    text-align: center;
+}
+
+#corners1 .smallbox1 {
+    margin: auto;
+    border-radius: 5px;
+    background: #fff3f6;
+    width: 400px;
+    height: 40px; 
+    padding: 10px;
+}
+
+.header1 {
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+    border: white 3px solid;
+    box-shadow: 4px 5px 9px -6px rgba(0,0,0,0.75);
+}
+
+.recipes {
+    margin-top: 15px;
+    margin-bottom: auto;
+    font-size: 45px;
+    color: white;
+    text-shadow: 2px 1px 4px rgba(0,0,0,0.43);
+}
+
+.hearts-divider {
+    margin: auto;
+    width: 200px;
+    height: auto;
+}
+
+.kirby-divider {
+    margin: auto;
+    margin-top: 5px;
+    width: 100px;
+    height: auto;
+}
