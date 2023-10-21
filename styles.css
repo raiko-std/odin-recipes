@@ -1,10 +1,23 @@
+body {
+    background-image: url(./img/background-page.avif);
+    background-size: 60%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
 #corners1 {
     margin: auto;
     border-radius: 25px;
     background: #f5a1b6;
-    padding: 40px; 
+    padding: 30px; 
     width: 600px;
-    height: auto;
+    height: 520px;
     text-align: center;
 }
 
@@ -39,9 +52,46 @@
     height: auto;
 }
 
+.hearts-divider.dark {
+    width: 100px;
+    height: auto;
+}
+
 .kirby-divider {
     margin: auto;
     margin-top: 5px;
     width: 100px;
     height: auto;
+}
+
+#corners {
+    margin: auto;
+    text-align: center;
+    border-radius: 25px;
+    background: #f5cea1;
+    padding: 30px; 
+    width: 400px;
+    height: 310px;
+}
+
+#corners.second {
+    background: #f59083;
+}
+
+.recipe {
+    width: 300px;
+    height: auto;
+    border: #fff3f6 3px solid;
+    border-radius: 15px;
+    box-shadow: 4px 5px 9px -6px rgba(0,0,0,0.75);
+}
+
+.recipe.adapt1 {
+    height: 220px;
+}
+
+#corners .recipe-name {
+    font-size: 25px;
+    color: black;
+    margin-top: 15px;
 }
