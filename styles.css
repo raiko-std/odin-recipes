@@ -30,6 +30,12 @@ ul {
     padding: 10px;
 }
 
+#corners1.smallbox2 {
+    padding: 5px;
+    padding-bottom: 10px;
+    height: 72px;
+}
+
 .header1 {
     width: 400px;
     height: auto;
@@ -74,8 +80,21 @@ ul {
     height: 310px;
 }
 
+#corners.first {
+    margin-right: 90px;
+}
+
 #corners.second {
     background: #f59083;
+}
+
+#corners.third {
+    background: #8cdf90;
+    margin-right: 90px;
+}
+
+#corners.fourth {
+    background: #daa1f5;
 }
 
 .recipe {
@@ -91,7 +110,26 @@ ul {
 }
 
 #corners .recipe-name {
-    font-size: 25px;
+    font-size-adjust: initial;
     color: black;
     margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.parent {
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+
+#corners.child {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.end-kirby {
+    width: 30px;
+    height: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
