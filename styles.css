@@ -47,6 +47,7 @@ ul {
 .recipes {
     margin-top: 15px;
     margin-bottom: auto;
+    font-family: 'Pacifico', cursive;
     font-size: 45px;
     color: white;
     text-shadow: 2px 1px 4px rgba(0,0,0,0.43);
@@ -109,12 +110,12 @@ ul {
     height: 220px;
 }
 
-#corners .recipe-name {
-    font-size-adjust: initial;
-    color: black;
+.recipe-name {
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px rgb(49, 19, 19);
     margin-top: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
+    font-family: 'Playpen Sans', cursive;
 }
 
 .parent {
