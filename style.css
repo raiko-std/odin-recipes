@@ -1,0 +1,122 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./img/main-background.jpg);
+  height: 900px;
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 67rem;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  text-align: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 35% 35% / 70%;
+}
+
+header .main-header {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  color: #FFF;
+  text-shadow: 1px 1px 1px #333;
+  background-image: url(./img/headerimg.png);
+  background-size: cover;
+}
+
+.cooking-kirby {
+  width: 100px;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.text-header {
+  font-size: 30px;
+  background-color: rgb(143, 15, 15);
+  width: 600px;
+  margin: auto;
+  border-radius: 50px;
+  box-shadow: 0 3px 20px 0 #0000003b;
+  padding: 10px 20px;
+}
+
+.main-header .header {
+  color: black;
+  text-shadow: none;
+  font-weight: 550;
+}
+
+.text1 {
+  margin-top: 15px;
+}
+
+.smallfoodicon {
+  width: 50px;
+  height: auto;
+  margin-top: 15px;
+}
+
+#food {
+  width: 400px;
+  height: 300px;
+  background-image: url(./foodboxes.jpg);
+  border-radius: 25px;
+  padding: 20px;
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#food .foodimg {
+  width: 230px;
+  height: 200px;
+  border-radius: 15px;
+  border: 2px solid #FFF;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  color: white;
+  background-color: rgb(143, 15, 15);
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  width: 200px;
+  text-align: center;
+}
+
+footer {
+  background-image: url(img/headerimg.png);
+  background-size: cover;
+  font-size: 15px;
+  font-weight: 550;
+  padding: 15px;
+  padding-bottom: 25px;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
