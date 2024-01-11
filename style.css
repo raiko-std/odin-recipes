@@ -1,12 +1,19 @@
+@font-face {
+  font-family: Raleway;
+  src: url('fonts/raleway/Raleway.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 300 800;
+}
+
 *{padding: 0; margin: 0; box-sizing: border-box;}
 
-header {
-  font-family: 'Times New Roman', Times, serif;
+.text-header {
+  font-family: Raleway, 'Times New Roman', Times, serif;
 }
 
 .container li {
   font-family: Verdana, Tahoma, sans-serif;
-  font-size: 12px;
+  font-size: 19px;
 }
 
 html {
