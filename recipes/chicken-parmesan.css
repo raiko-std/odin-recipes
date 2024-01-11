@@ -1,0 +1,112 @@
+body {
+    background-image: url(../img/main-background.jpg);
+}
+
+.main-recipe {
+    margin: 30px auto;
+    width: 600px;
+    height:auto;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 50px;
+    padding-top: 30px;
+    border-color: brown;
+    border-style: dotted;
+    box-sizing: border-box;
+}
+
+.title {
+    margin: 10px auto;
+    text-align: center;
+    width: 503px;
+    background-color: brown;
+    color: beige;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.chicken-parmesan-img {
+    width: 500px;
+    height: auto;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 3px 20px 0 #0000003b;
+    border: 2px solid whitesmoke;
+}
+
+.chicken-par {
+    height:130px;
+}
+
+.images-food {
+    margin: 0 -50px;
+    display:flex;
+    justify-content: space-between;
+    padding: 0 35px;
+    margin-bottom:20px;
+}
+
+.smallfoodicon {
+    width: 40px;
+    height:auto;
+    margin-top:20px;
+    margin-bottom:-30px;
+    border: 1px solid red;
+}
+
+
+.red {
+    font-weight:700;
+    color: brown;
+}
+
+h2, h3 {
+    text-decoration:underline;
+}
+
+h3 {
+    text-align:center;
+    margin-bottom:-10px;
+}
+
+.notes{
+    text-align:justify;
+}
+
+hr {
+    height:3px;
+    background-color:brown;
+    border:none;
+    margin-bottom: -10px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+ol {
+    text-align: justify;
+}
+
+ol > li::marker {
+    font-weight: bold;
+  }
+
+.ordered {
+    padding-left: 10px;
+}
+
+.home {
+    background-color:brown;
+    border-radius:3px;
+    text-align:center;
+    font-size:large;
+    font-weight:700;
+}
+
+a {
+    text-decoration:none;
+    color:white;
+}
