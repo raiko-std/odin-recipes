@@ -1,9 +1,64 @@
-body {
-    background-image: url(../img/main-background.jpg);
+*{padding: 0;
 }
 
+body {
+    background-image: url(../img/main-background.jpg);
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 35% 35% / 70%;
+  }
+  
+  header .main-header {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #333;
+    background-image: url(../img/headerimg.png);
+    background-size: cover;
+  }
+  
+  .cooking-kirby {
+    width: 100px;
+    height: auto;
+    margin-bottom: 5px;
+  }
+  
+  .text-header {
+    font-size: 30px;
+    background-color: rgb(143, 15, 15);
+    width: 600px;
+    margin: auto;
+    border-radius: 50px;
+    box-shadow: 0 3px 20px 0 #0000003b;
+    padding: 10px 20px;
+  }
+  
+  .main-header .header {
+    color: black;
+    text-shadow: none;
+    font-weight: 550;
+  }
+  
+  .text1 {
+    margin-top: 15px;
+  }
+  
+  .smallfoodicon {
+    width: 50px;
+    height: auto;
+    margin-top: 15px;
+  }
+
 .main-recipe {
-    margin: 30px auto;
+    margin: 20px auto;
     width: 600px;
     height:auto;
     background-color: antiquewhite;
@@ -48,12 +103,14 @@ body {
     margin-bottom:20px;
 }
 
+.smallicon {
+    display: flex;
+}
+
 .smallfoodicon {
     width: 40px;
     height:auto;
-    margin-top:20px;
-    margin-bottom:-30px;
-    border: 1px solid red;
+    margin:15px auto -15px auto;
 }
 
 
@@ -110,3 +167,17 @@ a {
     text-decoration:none;
     color:white;
 }
+
+footer {
+    background-image: url(../img/headerimg.png);
+    background-size: cover;
+    font-size: 15px;
+    font-weight: 550;
+    padding: 15px;
+    text-align: center;
+    position:static;
+    margin: 15px 0px 0px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
