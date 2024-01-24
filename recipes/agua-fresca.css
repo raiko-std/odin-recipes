@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.recipe-body {
+    box-sizing:border-box;
+    width:800px;
+    height:auto;
+    margin:2rem 20%;
+    padding:2rem;
+    border:2px solid green;
+}
+
+h1 {
+    font-size:45px;
+    margin-bottom:1rem;
+}
+
+.options {
+    display:flex;
+    margin-top:1rem;
+    gap:1rem;
+}
+
+.options span {
+    background-color:bisque;
+    width:fit-content;
+    padding:10px 20px;
+    flex:none;
+    border-radius:10px;
+    font-weight:700;
+}
+
+.options .save {
+    background-color:rgb(201, 54, 1);
+    color:whitesmoke;
+}
+
+.options hr{
+height:1rem;
+}
