@@ -8,39 +8,43 @@ body {
 }
 
 .recipe-body {
-    box-sizing:border-box;
-    width:800px;
-    height:auto;
-    margin:2rem 20%;
-    padding:2rem;
-    border:2px solid green;
+box-sizing: border-box;
+width:50%;
+height:auto;
+margin:20px 20%;
+border:1px solid red;
+padding:15px;
 }
 
-h1 {
-    font-size:45px;
-    margin-bottom:1rem;
+.description {
+padding:5px;
+margin-top:5px;
+}
+
+.author {
+font-size:small;
+padding:7px;
 }
 
 .options {
     display:flex;
-    margin-top:1rem;
-    gap:1rem;
+    padding:5px;
+    height:40px;
 }
 
-.options span {
-    background-color:bisque;
-    width:fit-content;
-    padding:10px 20px;
-    flex:none;
-    border-radius:10px;
+.options li {
+    list-style: none;
+    background-color:wheat;
+    color:brown;
     font-weight:700;
+
+    flex-basis:80px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
-.options .save {
-    background-color:rgb(201, 54, 1);
-    color:whitesmoke;
-}
-
-.options hr{
-height:1rem;
+li.save{
+    background-color:brown;
+    color:wheat;
 }
